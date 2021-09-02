@@ -13,6 +13,8 @@
 		B49965B426DF826A00808EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49965B226DF826A00808EC0 /* Main.storyboard */; };
 		B49965B626DF826D00808EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49965B526DF826D00808EC0 /* Assets.xcassets */; };
 		B49965B926DF826D00808EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49965B726DF826D00808EC0 /* LaunchScreen.storyboard */; };
+		B49965C226DF828000808EC0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49965C126DF828000808EC0 /* NetworkManager.swift */; };
+		B49965C526DFA09F00808EC0 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49965C426DFA09F00808EC0 /* Joke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B49965B526DF826D00808EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B49965B826DF826D00808EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B49965BA26DF826D00808EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49965C126DF828000808EC0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B49965C426DFA09F00808EC0 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				B49965AC26DF826A00808EC0 /* AppDelegate.swift */,
 				B49965AE26DF826A00808EC0 /* SceneDelegate.swift */,
 				B49965B026DF826A00808EC0 /* ViewController.swift */,
+				B49965C126DF828000808EC0 /* NetworkManager.swift */,
+				B49965C426DFA09F00808EC0 /* Joke.swift */,
 				B49965B226DF826A00808EC0 /* Main.storyboard */,
 				B49965B526DF826D00808EC0 /* Assets.xcassets */,
 				B49965B726DF826D00808EC0 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B49965C226DF828000808EC0 /* NetworkManager.swift in Sources */,
+				B49965C526DFA09F00808EC0 /* Joke.swift in Sources */,
 				B49965B126DF826A00808EC0 /* ViewController.swift in Sources */,
 				B49965AD26DF826A00808EC0 /* AppDelegate.swift in Sources */,
 				B49965AF26DF826A00808EC0 /* SceneDelegate.swift in Sources */,
